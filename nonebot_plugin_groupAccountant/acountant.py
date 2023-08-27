@@ -15,7 +15,12 @@ async def writeIn(text: str, userID: str):
     data_dir = store.get_data_dir("groupAccountant")
     jsonFile = store.get_data_file('groupAccountant', 'accountant_book.json')
     print(jsonFile)
-    if os.path.getsize(jsonFile) == 0:
+    try:
+        size = os.path.getsize(jsonFile)
+    except OSError:
+        jsonFile.write_text('')
+        size = 0
+    if size == 0:
         dataJson = json.dumps(dataDic)
         jsonFile.write_text(dataJson)
     else:
