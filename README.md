@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/github/license/shilapi/nonebot-plugin-groupAccountant.svg" alt="license">
 </a>
 <a href="https://pypi.python.org/pypi/nonebot-plugin-example">
-    <img src="https://img.shields.io/pypi/v/nonebot-plugin-example.svg" alt="pypi">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-groupAccountant.svg" alt="pypi">
 </a>
 <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="python">
 
