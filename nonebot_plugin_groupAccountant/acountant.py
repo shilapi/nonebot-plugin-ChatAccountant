@@ -12,8 +12,8 @@ async def writeIn(text: str, userID: str):
     dataDic = {}
     innerDataDic = {'location': data[0], 'person': data[1], 'price': data[2], 'by': userID}
     dataDic[date] = innerDataDic
-    data_dir = store.get_data_dir("accountant")
-    jsonFile = store.get_data_file('accountant', 'accountant book.json')
+    data_dir = store.get_data_dir("groupAccountant")
+    jsonFile = store.get_data_file('groupAccountant', 'accountant_book.json')
     print(jsonFile)
     if os.path.getsize(jsonFile) == 0:
         dataJson = json.dumps(dataDic)
@@ -29,7 +29,7 @@ async def writeIn(text: str, userID: str):
     return(data_dir)
 
 async def readBook(clear: bool):
-    jsonFile = store.get_data_file('accountant', 'accountant book.json')
+    jsonFile = store.get_data_file('groupAccountant', 'accountant_book.json')
     if os.path.getsize(jsonFile) == 0:
         resp = '当前无账目信息'
         return resp
