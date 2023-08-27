@@ -17,7 +17,7 @@ __plugin_meta__ = PluginMetadata(
         "unique_name": "groupAccountant",
         "example": "/记账 海底捞 5 600",
         "author": "shilapi <shilapi@outlook.com>",
-        "version": "0.0.1",
+        "version": "0.0.2",
     },
 )
 

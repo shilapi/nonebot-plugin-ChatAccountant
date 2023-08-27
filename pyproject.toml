@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_groupAccountant"
-version = "0.0.1"
+version = "0.0.2"
 description = "A group chat accountant for nonebot"
 authors = ["shilapi <shilapi@outlook.com>"]
 license = "MIT"
