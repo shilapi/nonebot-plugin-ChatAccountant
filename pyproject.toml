@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "nonebot_plugin_groupAccountant"
+name = "nonebot-plugin-groupaccountant"
 version = "0.0.2"
-description = "A group chat accountant for nonebot"
+description = "A group chat accountant plugin for nonebot"
 authors = ["shilapi <shilapi@outlook.com>"]
 license = "MIT"
 readme = "README.md"
@@ -9,11 +9,10 @@ homepage = "https://github.com/shilapi/nonebot-plugin-groupAccountant"
 repository = "https://github.com/shilapi/nonebot-plugin-groupAccountant"
 
 [tool.poetry.dependencies]
-python = "^3.10.6"
+python = "^3.10"
 nonebot2 = "^2.0.1"
 nonebot-adapter-onebot = "^2.2.4"
-nonebot_plugin_localstore = "^0.5.0"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

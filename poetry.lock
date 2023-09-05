@@ -212,21 +212,6 @@ nonebot2 = ">=2.0.0-beta.3,<3.0.0"
 typing-extensions = ">=4.0.0,<5.0.0"
 
 [[package]]
-name = "nonebot-plugin-localstore"
-version = "0.5.0"
-description = "Local Storage Support for NoneBot2"
-optional = false
-python-versions = ">=3.8,<4.0"
-files = [
-    {file = "nonebot_plugin_localstore-0.5.0-py3-none-any.whl", hash = "sha256:31ada7d363bdc9326e14f054d02f2c8cee58ec7a970e534ac2793d75b818cf95"},
-    {file = "nonebot_plugin_localstore-0.5.0.tar.gz", hash = "sha256:0099d99c427b13c52b6a23588b954dc8651c0b0b556d743f36aa2dd246576611"},
-]
-
-[package.dependencies]
-nonebot2 = ">=2.0.0,<3.0.0"
-typing-extensions = ">=4.0.0"
-
-[[package]]
 name = "nonebot2"
 version = "2.0.1"
 description = "An asynchronous python bot framework."
@@ -456,5 +441,5 @@ multidict = ">=4.0"
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.10.6"
-content-hash = "de399ae548ea3b751504c52776f440379181e1afed2385e5ff64d165de85068c"
+python-versions = "^3.10"
+content-hash = "7e9d6ab73f410a3852ea212d7bedee0c18f213d2cdf399cded3fe85d2320ca86"
