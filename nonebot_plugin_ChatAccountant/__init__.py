@@ -12,12 +12,12 @@ __plugin_meta__ = PluginMetadata(
     description="记录群友的共同花销，统一清算",
     usage="1. 记录花销：/记账 [开销名] [人数] [金额]    2. 清算： /清算 [clear](可选，用于清空账本)",
     type="application",
-    homepage="https://github.com/shilapi/nonebot-plugin-groupAccountant",
+    homepage="https://github.com/shilapi/nonebot-plugin-ChatAccountant",
     extra={
-        "unique_name": "groupAccountant",
+        "unique_name": "ChatAccountant",
         "example": "/记账 海底捞 5 600",
         "author": "shilapi <shilapi@outlook.com>",
-        "version": "0.0.2",
+        "version": "0.0.3",
     },
 )
 

@@ -1,10 +1,10 @@
-# nonebot-plugin-groupAccountant
+# nonebot-plugin-ChatAccountant
 
 <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/shilapi/nonebot-plugin-groupAccountant.svg" alt="license">
+    <img src="https://img.shields.io/github/license/shilapi/nonebot-plugin-ChatAccountant.svg" alt="license">
 </a>
-<a href="https://pypi.python.org/pypi/nonebot-plugin-groupAccountant">
-    <img src="https://img.shields.io/pypi/v/nonebot-plugin-groupAccountant.svg" alt="pypi">
+<a href="https://pypi.python.org/pypi/nonebot-plugin-ChatAccountant">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-ChatAccountant.svg" alt="pypi">
 </a>
 <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="python">
 
@@ -22,7 +22,7 @@ Nonebot 群记账插件
 <summary>使用 nb-cli 安装</summary>
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-    nb plugin install nonebot-plugin-groupAccountant
+    nb plugin install nonebot-plugin-ChatAccountant
 
 </details>
 
@@ -33,27 +33,27 @@ Nonebot 群记账插件
 <details>
 <summary>pip</summary>
 
-    pip install nonebot-plugin-groupAccountant
+    pip install nonebot-plugin-ChatAccountant
 </details>
 <details>
 <summary>pdm</summary>
 
-    pdm add nonebot-plugin-groupAccountant
+    pdm add nonebot-plugin-ChatAccountant
 </details>
 <details>
 <summary>poetry</summary>
 
-    poetry add nonebot-plugin-groupAccountant
+    poetry add nonebot-plugin-ChatAccountant
 </details>
 <details>
 <summary>conda</summary>
 
-    conda install nonebot-plugin-groupAccountant
+    conda install nonebot-plugin-ChatAccountant
 </details>
 
 打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
 
-    plugins = ["nonebot_plugin_groupAccountant"]
+    plugins = ["nonebot_plugin_ChatAccountant"]
 
 </details>
 
